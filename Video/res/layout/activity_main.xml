@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pause"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/play"
+        android:layout_alignBottom="@+id/play"
+        android:layout_toRightOf="@+id/play"
+        android:text="pause" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:text="play" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_toRightOf="@+id/pause"
+        android:text="stop" />
+
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_toRightOf="@+id/stop"
+        android:text="resume" />
+
+</RelativeLayout>
