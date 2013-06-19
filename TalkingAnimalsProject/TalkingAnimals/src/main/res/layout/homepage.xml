@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backgroundhome"
+            android:src="@drawable/background_home"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menutalking"
+            android:src="@drawable/menutalking"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    <!--
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zampinahome"
+            android:src="@drawable/zampa"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mappamuseolink"
+            android:src="@drawable/mappamuseolink"
+            android:layout_marginTop="26dp"
+            android:layout_alignTop="@+id/zampinahome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/giocalink"
+            android:src="@drawable/giocalink"
+            android:layout_marginLeft="11dp"
+            android:layout_below="@+id/mappamuseolink"
+            android:layout_alignLeft="@+id/mappamuseolink"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/visitalink"
+            android:src="@drawable/visitalink"
+            android:layout_below="@+id/giocalink"
+            android:layout_alignLeft="@+id/giocalink"
+            android:layout_marginTop="10dp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infolink"
+            android:src="@drawable/infolink"
+            android:layout_below="@+id/visitalink"
+            android:layout_alignRight="@+id/giocalink"/>
+-->
+</RelativeLayout>
